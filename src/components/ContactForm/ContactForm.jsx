@@ -24,7 +24,6 @@ export const ContactForm = () => {
       actions.resetForm();
       return;
     }
-    console.log(values);
     dispatch(addContact(values));
     actions.resetForm();
   };
